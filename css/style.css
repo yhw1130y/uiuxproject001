@@ -1,0 +1,369 @@
+@charset "utf-8"; 
+
+
+/* 메인 슬라이더 */
+.main-slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #e3dac9;
+}
+
+.main-slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Covered By Your Grace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+/*위클리 인테리어*/
+.weekly-interior {
+    width: 1240px;
+    height: 705px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 50px 0;
+    
+}
+/* 위클리 인테리어 1 */
+#weekly-interior1 {
+    position: relative;
+    flex: 1; 
+    width: 50%; 
+    margin-right: 20px; 
+}
+
+#weekly-interior1 img {
+    width: 605px; 
+    height: 601px;
+    /* margin: 0px 0px 0px 340px;  */
+    object-fit: cover;
+    
+}
+
+#weekly-interior1 img:hover {
+    transform: scale(1.1);
+}
+
+.inside-text1 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    /* transform: translate(-50%,-50%); */
+    color: white;
+    font-size: 118px;
+    font-family:'farro', sans-serif;
+    text-align: center;
+    /* padding: 20px;     */
+    opacity: 0.66;
+}
+
+
+.inside-text2 {
+    position: absolute;
+    top:130px;
+    left: 90px;
+    /* transform: translate(-50%,-50%); */
+    color: white;
+    font-size: 112px;
+    font-family:'farro', sans-serif;
+    text-align: center;
+    /* padding: 20px;     */
+    opacity: 0.66;
+}
+
+.weekly-interior2 img:hover {
+    transform: scale(1.1);
+}
+
+.weekly-interior2 {
+    width: 50%;
+    height: 100%;
+    display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    flex: 1; 
+    width: 50%;  */
+}
+
+/* 개별 아이템 */
+/* .weekly-interior2 article {
+    width: 287px; 
+    height: 289px;
+    
+} */
+
+.weekly-interior2 img {
+    width: 297px; 
+    height: 290px;
+    /* margin: 0px 340px 0px 0px;  */
+    object-fit: cover; 
+}
+
+/* .w4 {
+    margin-right: 1200px;
+}
+
+.w2 {
+    margin-right: 1200px;
+} */
+
+/* Best Seller */
+.best-seller {
+    margin: 0 auto;
+    width: 1240px;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.best-seller h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-seller h2 .title {
+    font-family:'farro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.best-seller h2 .info {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-right: 19px;
+    font-weight: normal;
+    font-family: 'Gowun Dodum', sans-serif;
+    word-spacing: 10px;
+    cursor: pointer;
+    
+}
+
+.best-seller-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    max-width: 1240px;
+    margin: 0 auto; 
+}
+
+.best-seller-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;  
+}
+
+.best-seller-item img {
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    gap: 100%;
+    cursor: pointer;
+}
+
+.best-seller-item p {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 15px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.best-seller-item span {
+    font-size: 25px;
+    font-family:'farro', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    color: #000000;
+    text-align: right; 
+    margin-top: auto;
+    width: 100%; 
+}
+
+
+
+.product {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+}
+
+/* 배게 섹션 */
+.pillow-section {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    padding: 30px 0;
+    /*background: orange;*/
+}
+.pillow-section img {
+    width: 100%;
+    height: auto;
+    max-width: 1905px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.pillow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.pillow {
+    text-align: center;
+}
+
+
+.pillow.horizontal {
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+    max-width: 500px;
+    text-align: left;
+}
+
+.pillow img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 3px;
+}
+
+.pillow-title {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pillow-desc {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    max-width: 220px;
+}
+
+.hover-target {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hover-target:hover {
+    text-decoration: underline;
+}
+
+/*.pillow.horizontal .pillow-text {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 0;
+}
+
+.pillow:not(.horizontal) .pillow-text {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+.pillow-section img {
+    width: 1905px;
+    height: 600px;
+    margin: 0px 0 10px 0;
+}
+
+.pillow-container {
+    display: flex;
+    justify-content: center;
+    gap: 349px;
+    align-items: center;
+}
+
+.pillow {
+    width: 270px;
+    height: 200px;
+    text-align: center;
+}
+
+.pillow img {
+    width: 270px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+}
+
+.pillow-text {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    float: right;
+}*/
+
+/* 인스타그램 */
+.instagram {
+    height: 600px;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.insta-logo 
+
+/* .instagram h1 {
+    font-size: 33px;
+    font-family: 'farro' sans-serif;
+    margin-top: 160px;
+}  */
+
+.insta-gallery {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 8px; */
+
+}
+
+.insta-gallery img {
+    width: 14%;
+    /* height: 265px; */
+    text-align: left;
+    border-radius: 3px;
+    margin-top: 100px
+}
+
